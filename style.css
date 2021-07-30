@@ -21,13 +21,18 @@ img .poster{
 .title {
   font-family: 'Coming Soon', cursive;
   max-width: fit-content;
-  font-size: 15px;
+}
+
+p {
+  font-family: 'Satisfy', cursive;
 }
 
 a {
   color: black;
   font-family: 'Coming Soon', cursive;
   font-size: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .movies {
@@ -35,4 +40,17 @@ a {
   background-image: url(./images/denise-jans-Lq6rcifGjOU-unsplash\ \(1\).jpg);
 }
 
+.col-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px;
+  padding: 0px;
+}
 
+@media (max-width: 768px) {
+  .title, a, p {
+    font-size: 10px;
+  }
+  img .poster{
+    max-width: 200px;
+  }
+  }
