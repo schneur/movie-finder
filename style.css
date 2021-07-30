@@ -1,0 +1,38 @@
+.photo {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  min-height: 545px;
+}
+
+.search {
+  font-family: 'Caveat', cursive;
+}
+
+h1 {
+  font-family: 'Oleo Script', cursive;
+}
+
+img .poster{
+  max-width: 110px;
+  width: auto;
+}
+
+.title {
+  font-family: 'Coming Soon', cursive;
+  max-width: fit-content;
+  font-size: 15px;
+}
+
+a {
+  color: black;
+  font-family: 'Coming Soon', cursive;
+  font-size: 15px;
+}
+
+.movies {
+  margin-top: 100px;
+  background-image: url(./images/denise-jans-Lq6rcifGjOU-unsplash\ \(1\).jpg);
+}
+
+
